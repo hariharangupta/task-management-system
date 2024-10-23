@@ -19,9 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.bg_image {
+  background-image: url("../assests/images/dashboard_img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
